@@ -1,0 +1,39 @@
+body {
+    background: #c33;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: arial;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+li {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+li span {
+    font-family: arial;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+li img {
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
